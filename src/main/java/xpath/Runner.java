@@ -48,11 +48,11 @@ public class Runner {
         runJaxen(num * 2);
 
         long start = System.currentTimeMillis();
-        runDefault(num * 2);
+        runDefault(num);
         System.out.println("default one, ms: " + (System.currentTimeMillis() - start));
 
         start = System.currentTimeMillis();
-        runJaxen(num * 2);
+        runJaxen(num);
         System.out.println("jaxen, ms: " + (System.currentTimeMillis() - start));
     }
 
