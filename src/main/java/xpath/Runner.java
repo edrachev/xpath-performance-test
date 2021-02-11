@@ -2,11 +2,6 @@ package xpath;
 
 import org.jaxen.JaxenException;
 import org.jaxen.dom.DOMXPath;
-import org.openjdk.jmh.Main;
-import org.openjdk.jmh.annotations.Benchmark;
-import org.openjdk.jmh.annotations.Fork;
-import org.openjdk.jmh.annotations.Setup;
-import org.openjdk.jmh.annotations.TearDown;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
